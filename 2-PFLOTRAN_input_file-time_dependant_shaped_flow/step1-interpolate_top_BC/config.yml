@@ -1,0 +1,16 @@
+## All config here
+
+general:                  # general parameters
+  working_folder: ./      # Sets up the working folder directory
+  nx: 400 #1600
+  ny: 750 #3000
+  center_ellipse_x: 200     # ellipse center - position x
+  center_ellipse_y: 375     # ellipse center - position y
+  a: 100                    # ellipse dimensions
+  b: 200                    # ellipse dimensions
+  constant_recharge: 3.17097919837646E-10
+  dilatation_factor: 1.1
+
+time_series:
+  time: [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125]
+  flow: [3.17E-10,3.17E-09, 6.34E-09,1.59E-08,2.54E-08,3.17E-08,4.76E-08,4.76E-08,5.71E-08,6.34E-08,6.98E-08,6.98E-08,5.71E-08,5.71E-08,4.76E-08,4.76E-08,3.81E-08,3.81E-08,4.12E-08,4.12E-08,2.85E-08,2.22E-08,2.22E-08,6.34E-09,6.34E-09,9.51E-09]
