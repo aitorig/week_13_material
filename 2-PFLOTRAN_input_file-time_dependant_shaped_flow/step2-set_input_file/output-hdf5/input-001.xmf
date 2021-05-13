@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf>
+	<Domain>
+	<Grid Name="Mesh">
+		<Time Value = "1.00000E-02" />
+		<Topology Type="Mixed" NumberOfElements="142676" >
+			<DataItem Format="HDF" DataType="Int" Dimensions="893980">
+				 input-domain.h5:/Domain/Cells
+			</DataItem>
+		</Topology>
+		<Geometry GeometryType="XYZ">
+			<DataItem Format="HDF" Dimensions="58129 3">
+				 input-domain.h5:/Domain/Vertices
+			</DataItem>
+		</Geometry>
+		<Attribute Name="Liquid Density [kg_m^3]" AttributeType="Scalar"  Center="Cell">
+			<DataItem Dimensions="142676 1" Format="HDF">
+				input-001.h5:/   1 Time  1.00000E-02 y/Liquid Density [kg_m^3]
+			</DataItem>
+		</Attribute>
+		<Attribute Name="Liquid Pressure [Pa]" AttributeType="Scalar"  Center="Cell">
+			<DataItem Dimensions="142676 1" Format="HDF">
+				input-001.h5:/   1 Time  1.00000E-02 y/Liquid Pressure [Pa]
+			</DataItem>
+		</Attribute>
+		<Attribute Name="Material ID" AttributeType="Scalar"  Center="Cell">
+			<DataItem Dimensions="142676 1" Format="HDF">
+				input-001.h5:/   1 Time  1.00000E-02 y/Material ID
+			</DataItem>
+		</Attribute>
+		<Attribute Name="Permeability X [m^2]" AttributeType="Scalar"  Center="Cell">
+			<DataItem Dimensions="142676 1" Format="HDF">
+				input-001.h5:/   1 Time  1.00000E-02 y/Permeability X [m^2]
+			</DataItem>
+		</Attribute>
+		<Attribute Name="Permeability Y [m^2]" AttributeType="Scalar"  Center="Cell">
+			<DataItem Dimensions="142676 1" Format="HDF">
+				input-001.h5:/   1 Time  1.00000E-02 y/Permeability Y [m^2]
+			</DataItem>
+		</Attribute>
+		<Attribute Name="Permeability Z [m^2]" AttributeType="Scalar"  Center="Cell">
+			<DataItem Dimensions="142676 1" Format="HDF">
+				input-001.h5:/   1 Time  1.00000E-02 y/Permeability Z [m^2]
+			</DataItem>
+		</Attribute>
+		<Attribute Name="Porosity" AttributeType="Scalar"  Center="Cell">
+			<DataItem Dimensions="142676 1" Format="HDF">
+				input-001.h5:/   1 Time  1.00000E-02 y/Porosity
+			</DataItem>
+		</Attribute>
+		<Attribute Name="Total Cl- [M]" AttributeType="Scalar"  Center="Cell">
+			<DataItem Dimensions="142676 1" Format="HDF">
+				input-001.h5:/   1 Time  1.00000E-02 y/Total Cl- [M]
+			</DataItem>
+		</Attribute>
+		<Attribute Name="Total Tracer1 [M]" AttributeType="Scalar"  Center="Cell">
+			<DataItem Dimensions="142676 1" Format="HDF">
+				input-001.h5:/   1 Time  1.00000E-02 y/Total Tracer1 [M]
+			</DataItem>
+		</Attribute>
+		<Attribute Name="Total Tracer2 [M]" AttributeType="Scalar"  Center="Cell">
+			<DataItem Dimensions="142676 1" Format="HDF">
+				input-001.h5:/   1 Time  1.00000E-02 y/Total Tracer2 [M]
+			</DataItem>
+		</Attribute>
+		<Attribute Name="Vlx" AttributeType="Scalar"  Center="Cell">
+			<DataItem Dimensions="142676 1" Format="HDF">
+				input-001.h5:/   1 Time  1.00000E-02 y/Vlx
+			</DataItem>
+		</Attribute>
+		<Attribute Name="Vly" AttributeType="Scalar"  Center="Cell">
+			<DataItem Dimensions="142676 1" Format="HDF">
+				input-001.h5:/   1 Time  1.00000E-02 y/Vly
+			</DataItem>
+		</Attribute>
+		<Attribute Name="Vlz" AttributeType="Scalar"  Center="Cell">
+			<DataItem Dimensions="142676 1" Format="HDF">
+				input-001.h5:/   1 Time  1.00000E-02 y/Vlz
+			</DataItem>
+		</Attribute>
+	</Grid>
+	</Domain>
+</Xdmf>
